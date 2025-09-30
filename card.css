@@ -1,0 +1,13 @@
+.card{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    width: 240px;
+    height: 405px;
+}
+.star{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+   
+    
+}
