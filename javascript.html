@@ -103,17 +103,25 @@
     //     }   
     // }
     // document.write("A soma é  " + soma + "<br>")
-    var b = {}
-    var i = {}
-    var n = {}
-    for(var i = 31;i<46;i++)
+    // var b = {}
+    // var i = {}
+    // var n = {}
+    // for(var i = 31;i<46;i++)
+    // {
+    //     n.push(1)
+    // }
+    // document.write(n)
+    // var g = {}
+    // var o = {}
+    function NumeroAleatorio(numeroMaximo)
     {
-        n.push(1)
+        var retorno = Math.random()
+        retorno=(retorno*numeroMaximo)
+        retorno=Math.floor(retorno)
+        return retorno
     }
-    document.write(n)
-    var g = {}
-    var o = {}
-    </script>
+    document.write("<h1>"+NumeroAleatorio(150)+"<\h1>")
+     </script>
 
 
 
